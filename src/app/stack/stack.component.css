@@ -1,0 +1,36 @@
+.main-website {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  flex-direction: column;
+}
+
+.smaller-websites {
+  display: flex;
+  justify-content: space-around;
+}
+.smaller-websites div {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stack li {
+  display: inline;
+}
+
+.preview-image {
+  margin: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

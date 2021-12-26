@@ -1,0 +1,15 @@
+<div class="contact-page">
+  <h1>Contact Me</h1>
+  <h4>I'd love to hear from you.</h4>
+
+  <form (ngSubmit)="onSubmit()" #form="ngForm">
+    <div class="form-field">
+      <div>
+        <input type="text" name="name" id="name" placeholder="Name" />
+        <input type="email" name="email" id="email" placeholder="Email" />
+      </div>
+
+      <textarea name="message" id="message" placeholder="Message"></textarea>
+    </div>
+  </form>
+</div>

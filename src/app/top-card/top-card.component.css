@@ -1,0 +1,50 @@
+.topcard {
+  display: flex;
+  flex: 0 0 100vw;
+  flex-direction: column;
+  height: 40rem;
+  background: linear-gradient(rgba(33, 33, 33, 0.3), rgba(33, 33, 33, 1)),
+    url("../../assets/laptop-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #000000d8;
+  height: fit-content;
+}
+.banner h1 {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.left-name {
+  justify-self: start;
+}
+
+.top-links {
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+
+.top-links p {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.top-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  margin: 1rem 10% 1rem 10%;
+}
