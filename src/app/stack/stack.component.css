@@ -28,6 +28,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .stack img {
