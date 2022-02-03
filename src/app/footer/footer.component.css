@@ -2,10 +2,14 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.links p {
+.links a {
   font-size: 2rem;
+  flex: 1 1 auto;
+  text-align: center;
+  margin: 1rem;
 }
 
 .footer-container {
