@@ -8,14 +8,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
+  background-position: right;
 }
 
 .banner {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  width: auto;
+  justify-content: center;
   background-color: #000000d8;
   height: fit-content;
+  padding: 0.5rem;
 }
 .banner h1 {
   margin-left: 1rem;
